@@ -1,0 +1,553 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="br.com.gastosabio.gasto_sabio_app"
+4    android:versionCode="5"
+5    android:versionName="1.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:37:5-66
+11-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:37:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:38:5-78
+12-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:38:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:39:5-81
+13-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:39:22-78
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:40:5-76
+14-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:40:22-74
+15    <uses-permission android:name="com.android.vending.BILLING" />
+15-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:41:5-67
+15-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:41:22-64
+16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+16-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+16-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-66
+17-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-63
+18    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+18-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-81
+18-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-78
+19    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+19-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-79
+19-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-76
+20    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Android package visibility setting -->
+20-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:26:5-79
+20-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:26:22-76
+21    <queries>
+21-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:32:5-48:15
+22
+23        <!-- For browser content -->
+24        <intent>
+24-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:35:9-41:18
+25            <action android:name="android.intent.action.VIEW" />
+25-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:36:13-65
+25-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:36:21-62
+26
+27            <category android:name="android.intent.category.BROWSABLE" />
+27-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:38:13-74
+27-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:38:23-71
+28
+29            <data android:scheme="https" />
+29-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:40:13-44
+29-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:40:19-41
+30        </intent>
+31        <!-- End of browser content -->
+32        <!-- For CustomTabsService -->
+33        <intent>
+33-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:44:9-46:18
+34            <action android:name="android.support.customtabs.action.CustomTabsService" />
+34-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:45:13-90
+34-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:45:21-87
+35        </intent>
+36        <!-- End of CustomTabsService -->
+37        <intent>
+37-->[com.android.billingclient:billing:6.0.1] C:\Users\Marco\.gradle\caches\transforms-3\5fb324257591920d3841f362e9d963cd\transformed\jetified-billing-6.0.1\AndroidManifest.xml:13:9-15:18
+38            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+38-->[com.android.billingclient:billing:6.0.1] C:\Users\Marco\.gradle\caches\transforms-3\5fb324257591920d3841f362e9d963cd\transformed\jetified-billing-6.0.1\AndroidManifest.xml:14:13-91
+38-->[com.android.billingclient:billing:6.0.1] C:\Users\Marco\.gradle\caches\transforms-3\5fb324257591920d3841f362e9d963cd\transformed\jetified-billing-6.0.1\AndroidManifest.xml:14:21-88
+39        </intent>
+40    </queries>
+41
+42    <uses-permission android:name="android.permission.WAKE_LOCK" />
+42-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\Marco\.gradle\caches\transforms-3\67bd1e2ed67b95ed59b0e94933caa8aa\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:5-68
+42-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\Marco\.gradle\caches\transforms-3\67bd1e2ed67b95ed59b0e94933caa8aa\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:22-65
+43    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+43-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:5-77
+43-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:22-74
+44
+45    <application
+46        android:name="android.app.Application"
+46-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:4:9-42
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.8.0] C:\Users\Marco\.gradle\caches\transforms-3\2fa18b2f544a798470f6ba6d29f55f60\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+48        android:icon="@mipmap/ic_launcher"
+48-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:5:9-43
+49        android:label="6 Tech" >
+49-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:3:9-31
+50        <activity
+50-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:6:9-26:20
+51            android:name="br.com.gastosabio.gasto_sabio_app.MainActivity"
+51-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:7:13-41
+52            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+52-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:11:13-163
+53            android:exported="true"
+53-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:8:13-36
+54            android:hardwareAccelerated="true"
+54-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:12:13-47
+55            android:launchMode="singleTop"
+55-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:9:13-43
+56            android:theme="@style/LaunchTheme"
+56-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:10:13-47
+57            android:windowSoftInputMode="adjustResize" >
+57-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:13:13-55
+58
+59            <!--
+60                 Specifies an Android theme to apply to this Activity as soon as
+61                 the Android process has started. This theme is visible to the user
+62                 while the Flutter UI initializes. After that, this theme continues
+63                 to determine the Window background behind the Flutter UI.
+64            -->
+65            <meta-data
+65-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:18:13-21:17
+66                android:name="io.flutter.embedding.android.NormalTheme"
+66-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:19:15-70
+67                android:resource="@style/NormalTheme" />
+67-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:20:15-52
+68
+69            <intent-filter>
+69-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:22:13-25:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:23:17-68
+70-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:23:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:24:17-76
+72-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:24:27-74
+73            </intent-filter>
+74        </activity>
+75        <!--
+76             Don't delete the meta-data below.
+77             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+78        -->
+79        <meta-data
+79-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:29:9-31:33
+80            android:name="flutterEmbedding"
+80-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:30:13-44
+81            android:value="2" />
+81-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:31:13-30
+82        <meta-data
+82-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:33:10-35:71
+83            android:name="com.google.android.gms.ads.APPLICATION_ID"
+83-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:34:15-71
+84            android:value="ca-app-pub-5086656166820722~6165814175" />
+84-->C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\android\app\src\main\AndroidManifest.xml:35:15-69
+85        <meta-data
+85-->[:google_mobile_ads] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\google_mobile_ads\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-14:36
+86            android:name="io.flutter.embedded_views_preview"
+86-->[:google_mobile_ads] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\google_mobile_ads\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-61
+87            android:value="true" />
+87-->[:google_mobile_ads] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\google_mobile_ads\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-33
+88
+89        <receiver
+89-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-18:40
+90            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+90-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-91
+91            android:exported="false" />
+91-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+92        <receiver
+92-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-21:40
+93            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+93-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-97
+94            android:exported="false" />
+94-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-37
+95        <receiver
+95-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-31:20
+96            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+96-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-101
+97            android:exported="false" >
+97-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-37
+98            <intent-filter>
+98-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-30:29
+99                <action android:name="android.intent.action.BOOT_COMPLETED" />
+99-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:17-79
+99-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:25-76
+100                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+100-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:27:17-84
+100-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:27:25-81
+101                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+101-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:28:17-82
+101-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:28:25-79
+102                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+102-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-82
+102-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:25-79
+103            </intent-filter>
+104        </receiver>
+105
+106        <activity
+106-->[:url_launcher_android] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+107            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+107-->[:url_launcher_android] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+108            android:exported="false"
+108-->[:url_launcher_android] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+109            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+109-->[:url_launcher_android] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+110
+111        <receiver
+111-->[com.revenuecat.purchases:purchases-store-amazon:6.9.2] C:\Users\Marco\.gradle\caches\transforms-3\26d5a1acde436237bd1e2136ee763187\transformed\jetified-purchases-store-amazon-6.9.2\AndroidManifest.xml:8:9-15:20
+112            android:name="com.amazon.device.iap.ResponseReceiver"
+112-->[com.revenuecat.purchases:purchases-store-amazon:6.9.2] C:\Users\Marco\.gradle\caches\transforms-3\26d5a1acde436237bd1e2136ee763187\transformed\jetified-purchases-store-amazon-6.9.2\AndroidManifest.xml:9:13-66
+113            android:exported="true"
+113-->[com.revenuecat.purchases:purchases-store-amazon:6.9.2] C:\Users\Marco\.gradle\caches\transforms-3\26d5a1acde436237bd1e2136ee763187\transformed\jetified-purchases-store-amazon-6.9.2\AndroidManifest.xml:10:13-36
+114            android:permission="com.amazon.inapp.purchasing.Permission.NOTIFY" >
+114-->[com.revenuecat.purchases:purchases-store-amazon:6.9.2] C:\Users\Marco\.gradle\caches\transforms-3\26d5a1acde436237bd1e2136ee763187\transformed\jetified-purchases-store-amazon-6.9.2\AndroidManifest.xml:11:13-79
+115            <intent-filter>
+115-->[com.revenuecat.purchases:purchases-store-amazon:6.9.2] C:\Users\Marco\.gradle\caches\transforms-3\26d5a1acde436237bd1e2136ee763187\transformed\jetified-purchases-store-amazon-6.9.2\AndroidManifest.xml:12:13-14:29
+116                <action android:name="com.amazon.inapp.purchasing.NOTIFY" />
+116-->[com.revenuecat.purchases:purchases-store-amazon:6.9.2] C:\Users\Marco\.gradle\caches\transforms-3\26d5a1acde436237bd1e2136ee763187\transformed\jetified-purchases-store-amazon-6.9.2\AndroidManifest.xml:13:17-77
+116-->[com.revenuecat.purchases:purchases-store-amazon:6.9.2] C:\Users\Marco\.gradle\caches\transforms-3\26d5a1acde436237bd1e2136ee763187\transformed\jetified-purchases-store-amazon-6.9.2\AndroidManifest.xml:13:25-74
+117            </intent-filter>
+118        </receiver>
+119
+120        <uses-library
+120-->[androidx.window:window:1.0.0-beta04] C:\Users\Marco\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+121            android:name="androidx.window.extensions"
+121-->[androidx.window:window:1.0.0-beta04] C:\Users\Marco\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+122            android:required="false" />
+122-->[androidx.window:window:1.0.0-beta04] C:\Users\Marco\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+123        <uses-library
+123-->[androidx.window:window:1.0.0-beta04] C:\Users\Marco\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+124            android:name="androidx.window.sidecar"
+124-->[androidx.window:window:1.0.0-beta04] C:\Users\Marco\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+125            android:required="false" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+125-->[androidx.window:window:1.0.0-beta04] C:\Users\Marco\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+126        <activity
+126-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:53:9-58:43
+127            android:name="com.google.android.gms.ads.AdActivity"
+127-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:54:13-65
+128            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+128-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:55:13-122
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:56:13-37
+130            android:theme="@android:style/Theme.Translucent" />
+130-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:57:13-61
+131
+132        <provider
+132-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:60:9-65:43
+133            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+133-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:61:13-76
+134            android:authorities="br.com.gastosabio.gasto_sabio_app.mobileadsinitprovider"
+134-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:62:13-73
+135            android:exported="false"
+135-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:63:13-37
+136            android:initOrder="100" />
+136-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:64:13-36
+137
+138        <service
+138-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:67:9-71:43
+139            android:name="com.google.android.gms.ads.AdService"
+139-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:68:13-64
+140            android:enabled="true"
+140-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:69:13-35
+141            android:exported="false" />
+141-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:70:13-37
+142
+143        <activity
+143-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:73:9-77:43
+144            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+144-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:74:13-82
+145            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+145-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:75:13-122
+146            android:exported="false" />
+146-->[com.google.android.gms:play-services-ads-lite:22.0.0] C:\Users\Marco\.gradle\caches\transforms-3\a4bb9b36eda9dc68812dcd9cb8a0692c\transformed\jetified-play-services-ads-lite-22.0.0\AndroidManifest.xml:76:13-37
+147        <activity
+147-->[com.revenuecat.purchases:purchases:6.9.2] C:\Users\Marco\.gradle\caches\transforms-3\93605fe5dec3fabdae3f419a29a7a891\transformed\jetified-purchases-6.9.2\AndroidManifest.xml:10:9-13:75
+148            android:name="com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity"
+148-->[com.revenuecat.purchases:purchases:6.9.2] C:\Users\Marco\.gradle\caches\transforms-3\93605fe5dec3fabdae3f419a29a7a891\transformed\jetified-purchases-6.9.2\AndroidManifest.xml:11:13-97
+149            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+149-->[com.revenuecat.purchases:purchases:6.9.2] C:\Users\Marco\.gradle\caches\transforms-3\93605fe5dec3fabdae3f419a29a7a891\transformed\jetified-purchases-6.9.2\AndroidManifest.xml:12:13-96
+150            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+150-->[com.revenuecat.purchases:purchases:6.9.2] C:\Users\Marco\.gradle\caches\transforms-3\93605fe5dec3fabdae3f419a29a7a891\transformed\jetified-purchases-6.9.2\AndroidManifest.xml:13:13-72
+151        <activity
+151-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Marco\.gradle\caches\transforms-3\1cd966c42e4b00cabbb976d3f26df72a\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+152            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+152-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Marco\.gradle\caches\transforms-3\1cd966c42e4b00cabbb976d3f26df72a\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+153            android:exported="false"
+153-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Marco\.gradle\caches\transforms-3\1cd966c42e4b00cabbb976d3f26df72a\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+154-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Marco\.gradle\caches\transforms-3\1cd966c42e4b00cabbb976d3f26df72a\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+155
+156        <meta-data
+156-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Marco\.gradle\caches\transforms-3\f64fba6e6efbe26a4b67f791bcfc957f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+157            android:name="com.google.android.gms.version"
+157-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Marco\.gradle\caches\transforms-3\f64fba6e6efbe26a4b67f791bcfc957f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+158            android:value="@integer/google_play_services_version" />
+158-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Marco\.gradle\caches\transforms-3\f64fba6e6efbe26a4b67f791bcfc957f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+159
+160        <provider
+160-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:31:9-39:20
+161            android:name="androidx.startup.InitializationProvider"
+161-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:32:13-67
+162            android:authorities="br.com.gastosabio.gasto_sabio_app.androidx-startup"
+162-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:33:13-68
+163            android:exported="false" >
+163-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:34:13-37
+164            <meta-data
+164-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+165                android:name="androidx.work.WorkManagerInitializer"
+165-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+166                android:value="androidx.startup" />
+166-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+167            <meta-data
+167-->[androidx.lifecycle:lifecycle-process:2.5.0] C:\Users\Marco\.gradle\caches\transforms-3\81214651ce37da9dbbe1359b5cde75fe\transformed\jetified-lifecycle-process-2.5.0\AndroidManifest.xml:31:13-33:52
+168                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+168-->[androidx.lifecycle:lifecycle-process:2.5.0] C:\Users\Marco\.gradle\caches\transforms-3\81214651ce37da9dbbe1359b5cde75fe\transformed\jetified-lifecycle-process-2.5.0\AndroidManifest.xml:32:17-78
+169                android:value="androidx.startup" />
+169-->[androidx.lifecycle:lifecycle-process:2.5.0] C:\Users\Marco\.gradle\caches\transforms-3\81214651ce37da9dbbe1359b5cde75fe\transformed\jetified-lifecycle-process-2.5.0\AndroidManifest.xml:33:17-49
+170        </provider>
+171
+172        <service
+172-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+173            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+173-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+174            android:directBootAware="false"
+174-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+175            android:enabled="@bool/enable_system_alarm_service_default"
+175-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+176            android:exported="false" />
+176-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+177        <service
+177-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+178            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+178-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+179            android:directBootAware="false"
+179-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+180            android:enabled="@bool/enable_system_job_service_default"
+180-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+181            android:exported="true"
+181-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+182            android:permission="android.permission.BIND_JOB_SERVICE" />
+182-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+183        <service
+183-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+184            android:name="androidx.work.impl.foreground.SystemForegroundService"
+184-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+185            android:directBootAware="false"
+185-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+186            android:enabled="@bool/enable_system_foreground_service_default"
+186-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+187            android:exported="false" />
+187-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+188
+189        <receiver
+189-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+190            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+190-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+191            android:directBootAware="false"
+191-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+192            android:enabled="true"
+192-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+193            android:exported="false" />
+193-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+194        <receiver
+194-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+195            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+195-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+196            android:directBootAware="false"
+196-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+197            android:enabled="false"
+197-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+198            android:exported="false" >
+198-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+199            <intent-filter>
+199-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+200                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+200-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+200-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+201                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+201-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+201-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+202            </intent-filter>
+203        </receiver>
+204        <receiver
+204-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+205            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+205-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+206            android:directBootAware="false"
+206-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+207            android:enabled="false"
+207-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+208            android:exported="false" >
+208-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+209            <intent-filter>
+209-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+210                <action android:name="android.intent.action.BATTERY_OKAY" />
+210-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+210-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+211                <action android:name="android.intent.action.BATTERY_LOW" />
+211-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+211-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+212            </intent-filter>
+213        </receiver>
+214        <receiver
+214-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+215            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+215-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+216            android:directBootAware="false"
+216-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+217            android:enabled="false"
+217-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+218            android:exported="false" >
+218-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+219            <intent-filter>
+219-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+220                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+220-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+220-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+221                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+221-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+221-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+222            </intent-filter>
+223        </receiver>
+224        <receiver
+224-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+225            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+225-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+226            android:directBootAware="false"
+226-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+227            android:enabled="false"
+227-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
+228            android:exported="false" >
+228-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+229            <intent-filter>
+229-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+230                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+230-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+230-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+231            </intent-filter>
+232        </receiver>
+233        <receiver
+233-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+234            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+234-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+235            android:directBootAware="false"
+235-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+236            android:enabled="false"
+236-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+237            android:exported="false" >
+237-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+238            <intent-filter>
+238-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+239                <action android:name="android.intent.action.BOOT_COMPLETED" />
+239-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:17-79
+239-->[:flutter_local_notifications] C:\Users\Marco\Desktop\PROJETOS\PortalHumanizado\portal-humanizado\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:25-76
+240                <action android:name="android.intent.action.TIME_SET" />
+240-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+240-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+241                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+241-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+241-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+242            </intent-filter>
+243        </receiver>
+244        <receiver
+244-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+245            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+245-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+246            android:directBootAware="false"
+246-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+247            android:enabled="@bool/enable_system_alarm_service_default"
+247-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+248            android:exported="false" >
+248-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+249            <intent-filter>
+249-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+250                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+250-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+250-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+251            </intent-filter>
+252        </receiver>
+253        <receiver
+253-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+254            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+254-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+255            android:directBootAware="false"
+255-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+256            android:enabled="true"
+256-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+257            android:exported="true"
+257-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+258            android:permission="android.permission.DUMP" >
+258-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+259            <intent-filter>
+259-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+260                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+260-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+260-->[androidx.work:work-runtime:2.7.0] C:\Users\Marco\.gradle\caches\transforms-3\0788b261b5f1c186d068c8d89bf931f5\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+261            </intent-filter>
+262        </receiver>
+263
+264        <meta-data
+264-->[com.android.billingclient:billing:6.0.1] C:\Users\Marco\.gradle\caches\transforms-3\5fb324257591920d3841f362e9d963cd\transformed\jetified-billing-6.0.1\AndroidManifest.xml:19:9-21:37
+265            android:name="com.google.android.play.billingclient.version"
+265-->[com.android.billingclient:billing:6.0.1] C:\Users\Marco\.gradle\caches\transforms-3\5fb324257591920d3841f362e9d963cd\transformed\jetified-billing-6.0.1\AndroidManifest.xml:20:13-73
+266            android:value="6.0.1" />
+266-->[com.android.billingclient:billing:6.0.1] C:\Users\Marco\.gradle\caches\transforms-3\5fb324257591920d3841f362e9d963cd\transformed\jetified-billing-6.0.1\AndroidManifest.xml:21:13-34
+267
+268        <activity
+268-->[com.android.billingclient:billing:6.0.1] C:\Users\Marco\.gradle\caches\transforms-3\5fb324257591920d3841f362e9d963cd\transformed\jetified-billing-6.0.1\AndroidManifest.xml:23:9-27:75
+269            android:name="com.android.billingclient.api.ProxyBillingActivity"
+269-->[com.android.billingclient:billing:6.0.1] C:\Users\Marco\.gradle\caches\transforms-3\5fb324257591920d3841f362e9d963cd\transformed\jetified-billing-6.0.1\AndroidManifest.xml:24:13-78
+270            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+270-->[com.android.billingclient:billing:6.0.1] C:\Users\Marco\.gradle\caches\transforms-3\5fb324257591920d3841f362e9d963cd\transformed\jetified-billing-6.0.1\AndroidManifest.xml:25:13-96
+271            android:exported="false"
+271-->[com.android.billingclient:billing:6.0.1] C:\Users\Marco\.gradle\caches\transforms-3\5fb324257591920d3841f362e9d963cd\transformed\jetified-billing-6.0.1\AndroidManifest.xml:26:13-37
+272            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+272-->[com.android.billingclient:billing:6.0.1] C:\Users\Marco\.gradle\caches\transforms-3\5fb324257591920d3841f362e9d963cd\transformed\jetified-billing-6.0.1\AndroidManifest.xml:27:13-72
+273
+274        <service
+274-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Marco\.gradle\caches\transforms-3\a5f1ff8179a51cad08637ffc69855391\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+275            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+275-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Marco\.gradle\caches\transforms-3\a5f1ff8179a51cad08637ffc69855391\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+276            android:exported="false" >
+276-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Marco\.gradle\caches\transforms-3\a5f1ff8179a51cad08637ffc69855391\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+277            <meta-data
+277-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Marco\.gradle\caches\transforms-3\a5f1ff8179a51cad08637ffc69855391\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+278                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+278-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Marco\.gradle\caches\transforms-3\a5f1ff8179a51cad08637ffc69855391\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+279                android:value="cct" />
+279-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Marco\.gradle\caches\transforms-3\a5f1ff8179a51cad08637ffc69855391\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+280        </service>
+281        <service
+281-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Marco\.gradle\caches\transforms-3\6e5a1cbd6e3d2c42bcc7c2731873333e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+282            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+282-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Marco\.gradle\caches\transforms-3\6e5a1cbd6e3d2c42bcc7c2731873333e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+283            android:exported="false"
+283-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Marco\.gradle\caches\transforms-3\6e5a1cbd6e3d2c42bcc7c2731873333e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+284            android:permission="android.permission.BIND_JOB_SERVICE" >
+284-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Marco\.gradle\caches\transforms-3\6e5a1cbd6e3d2c42bcc7c2731873333e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+285        </service>
+286
+287        <receiver
+287-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Marco\.gradle\caches\transforms-3\6e5a1cbd6e3d2c42bcc7c2731873333e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+288            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+288-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Marco\.gradle\caches\transforms-3\6e5a1cbd6e3d2c42bcc7c2731873333e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+289            android:exported="false" />
+289-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Marco\.gradle\caches\transforms-3\6e5a1cbd6e3d2c42bcc7c2731873333e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+290
+291        <service
+291-->[androidx.room:room-runtime:2.2.5] C:\Users\Marco\.gradle\caches\transforms-3\b4be91b71dbb8833b028ca23c612f59e\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+292            android:name="androidx.room.MultiInstanceInvalidationService"
+292-->[androidx.room:room-runtime:2.2.5] C:\Users\Marco\.gradle\caches\transforms-3\b4be91b71dbb8833b028ca23c612f59e\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+293            android:directBootAware="true"
+293-->[androidx.room:room-runtime:2.2.5] C:\Users\Marco\.gradle\caches\transforms-3\b4be91b71dbb8833b028ca23c612f59e\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+294            android:exported="false" />
+294-->[androidx.room:room-runtime:2.2.5] C:\Users\Marco\.gradle\caches\transforms-3\b4be91b71dbb8833b028ca23c612f59e\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+295    </application>
+296
+297</manifest>
